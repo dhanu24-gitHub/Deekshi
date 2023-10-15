@@ -7,6 +7,7 @@ public class Human {
 	String gender;
 	
 	public String sleeping_hrs(int workingHrs, int eatingHrs, int idleHrs) {
+		System.out.println("TTTTTTTTTTTTTTTTTTTTTTTTTTT");
 		return "Sleeping Hours = "+ (24 - (workingHrs + eatingHrs + idleHrs));
 	}
 	
